@@ -22,22 +22,22 @@ import ImageCard from './ImageCard';
 
 const IronFencePage = () => {
   const data = [
-    { title: "Tags and Titles", image: ironFence1, key: 1 },
-    { title: "Tags and Titles", image: ironFence2, key: 2 },
-    { title: "Tags and Titles", image: ironFence3, key: 3 },
-    { title: "Tags and Titles", image: ironFence4, key: 4 },
-    { title: "Tags and Titles", image: ironFence5, key: 5 },
-    { title: "Tags and Titles", image: ironFence6, key: 6 },
-    { title: "Tags and Titles", image: ironFence7, key: 7 },
-    { title: "Tags and Titles", image: ironFence8, key: 8 },
-    { title: "Tags and Titles", image: ironFence9, key: 9 },
-    { title: "Tags and Titles", image: ironFence10, key: 10 },
-    { title: "Tags and Titles", image: ironFence11, key: 11 },
-    { title: "Tags and Titles", image: ironFence12, key: 12 },
-    { title: "Tags and Titles", image: ironFence13, key: 13 },
-    { title: "Tags and Titles", image: ironFence14, key: 14 },
-    { title: "Tags and Titles", image: ironFence15, key: 15 },
-    { title: "Tags and Titles", image: ironFence16, key: 16 },
+    {  image: ironFence1, key: 1 },
+    {  image: ironFence2, key: 2 },
+    {  image: ironFence3, key: 3 },
+    {  image: ironFence4, key: 4 },
+    {  image: ironFence5, key: 5 },
+    {  image: ironFence6, key: 6 },
+    {  image: ironFence7, key: 7 },
+    {  image: ironFence8, key: 8 },
+    {  image: ironFence9, key: 9 },
+    {  image: ironFence10, key: 10 },
+    {  image: ironFence11, key: 11 },
+    {  image: ironFence12, key: 12 },
+    {  image: ironFence13, key: 13 },
+    {  image: ironFence14, key: 14 },
+    {  image: ironFence15, key: 15 },
+    {  image: ironFence16, key: 16 },
   ];
 
   return (
@@ -85,8 +85,8 @@ const IronFencePage = () => {
         </div>
       </div>
       <div className="md:px-10 photos gap-5 flex justify-center items-center flex-wrap">
-        {data.map(({ title, image, key }) => (
-          <ImageCard key={key} title={title} image={image} />
+        {data.map(({  image, key }) => (
+          <ImageCard key={key} image={image} />
         ))}
       </div>
     </div>

@@ -24,24 +24,24 @@ import ImageCard from './ImageCard';
 
 const OutdoorGardenUmbrellaPage = () => {
   const data = [
-    { title: "Tags and Titles", image: outdoorGardenUmbrella1, key: 1 },
-    { title: "Tags and Titles", image: outdoorGardenUmbrella2, key: 2 },
-    { title: "Tags and Titles", image: outdoorGardenUmbrella3, key: 3 },
-    { title: "Tags and Titles", image: outdoorGardenUmbrella4, key: 4 },
-    { title: "Tags and Titles", image: outdoorGardenUmbrella5, key: 5 },
-    { title: "Tags and Titles", image: outdoorGardenUmbrella6, key: 6 },
-    { title: "Tags and Titles", image: outdoorGardenUmbrella7, key: 7 },
-    { title: "Tags and Titles", image: outdoorGardenUmbrella8, key: 8 },
-    { title: "Tags and Titles", image: outdoorGardenUmbrella9, key: 9 },
-    { title: "Tags and Titles", image: outdoorGardenUmbrella10, key: 10 },
-    { title: "Tags and Titles", image: outdoorGardenUmbrella11, key: 11 },
-    { title: "Tags and Titles", image: outdoorGardenUmbrella12, key: 12 },
-    { title: "Tags and Titles", image: outdoorGardenUmbrella13, key: 13 },
-    { title: "Tags and Titles", image: outdoorGardenUmbrella14, key: 14 },
-    { title: "Tags and Titles", image: outdoorGardenUmbrella15, key: 15 },
-    { title: "Tags and Titles", image: outdoorGardenUmbrella16, key: 16 },
-    { title: "Tags and Titles", image: outdoorGardenUmbrella17, key: 17 },
-    { title: "Tags and Titles", image: outdoorGardenUmbrella18, key: 18 },
+    {  image: outdoorGardenUmbrella1, key: 1 },
+    {  image: outdoorGardenUmbrella2, key: 2 },
+    {  image: outdoorGardenUmbrella3, key: 3 },
+    {  image: outdoorGardenUmbrella4, key: 4 },
+    {  image: outdoorGardenUmbrella5, key: 5 },
+    {  image: outdoorGardenUmbrella6, key: 6 },
+    {  image: outdoorGardenUmbrella7, key: 7 },
+    {  image: outdoorGardenUmbrella8, key: 8 },
+    {  image: outdoorGardenUmbrella9, key: 9 },
+    {  image: outdoorGardenUmbrella10, key: 10 },
+    {  image: outdoorGardenUmbrella11, key: 11 },
+    {  image: outdoorGardenUmbrella12, key: 12 },
+    {  image: outdoorGardenUmbrella13, key: 13 },
+    {  image: outdoorGardenUmbrella14, key: 14 },
+    {  image: outdoorGardenUmbrella15, key: 15 },
+    {  image: outdoorGardenUmbrella16, key: 16 },
+    {  image: outdoorGardenUmbrella17, key: 17 },
+    {  image: outdoorGardenUmbrella18, key: 18 },
   ];
 
   return (
@@ -75,8 +75,8 @@ const OutdoorGardenUmbrellaPage = () => {
         </div>
       </div>
       <div className="md:px-10 photos gap-5 flex justify-center items-center flex-wrap">
-        {data.map(({ title, image, key }) => (
-          <ImageCard key={key} title={title} image={image} />
+        {data.map(({  image, key }) => (
+          <ImageCard key={key}  image={image} />
         ))}
       </div>
     </div>

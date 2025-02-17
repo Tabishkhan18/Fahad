@@ -22,22 +22,22 @@ import ImageCard from './ImageCard';
 
 const UmbrellaPage = () => {
   const data = [
-    { title: "Tags and Titles", image: umbrella1, key: 1 },
-    { title: "Tags and Titles", image: umbrella2, key: 2 },
-    { title: "Tags and Titles", image: umbrella3, key: 3 },
-    { title: "Tags and Titles", image: umbrella4, key: 4 },
-    { title: "Tags and Titles", image: umbrella5, key: 5 },
-    { title: "Tags and Titles", image: umbrella6, key: 6 },
-    { title: "Tags and Titles", image: umbrella7, key: 7 },
-    { title: "Tags and Titles", image: umbrella8, key: 8 },
-    { title: "Tags and Titles", image: umbrella9, key: 9 },
-    { title: "Tags and Titles", image: umbrella10, key: 10 },
-    { title: "Tags and Titles", image: umbrella11, key: 11 },
-    { title: "Tags and Titles", image: umbrella12, key: 12 },
-    { title: "Tags and Titles", image: umbrella13, key: 13 },
-    { title: "Tags and Titles", image: umbrella14, key: 14 },
-    { title: "Tags and Titles", image: umbrella15, key: 15 },
-    { title: "Tags and Titles", image: umbrella16, key: 16 },
+    {  image: umbrella1, key: 1 },
+    {  image: umbrella2, key: 2 },
+    {  image: umbrella3, key: 3 },
+    {  image: umbrella4, key: 4 },
+    {  image: umbrella5, key: 5 },
+    {  image: umbrella6, key: 6 },
+    {  image: umbrella7, key: 7 },
+    {  image: umbrella8, key: 8 },
+    {  image: umbrella9, key: 9 },
+    {  image: umbrella10, key: 10 },
+    {  image: umbrella11, key: 11 },
+    {  image: umbrella12, key: 12 },
+    {  image: umbrella13, key: 13 },
+    {  image: umbrella14, key: 14 },
+    {  image: umbrella15, key: 15 },
+    {  image: umbrella16, key: 16 },
   ];
 
   return (
@@ -89,8 +89,8 @@ const UmbrellaPage = () => {
 
       </div>
       <div className="md:px-10 photos gap-5 flex justify-center items-center flex-wrap">
-        {data.map(({ title, image, key }) => (
-          <ImageCard key={key} title={title} image={image} />
+        {data.map(({  image, key }) => (
+          <ImageCard key={key}  image={image} />
         ))}
       </div>
     </div>

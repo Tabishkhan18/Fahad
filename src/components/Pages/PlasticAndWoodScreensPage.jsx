@@ -18,18 +18,18 @@ import ImageCard from './ImageCard';
 
 const PlasticAndWoodScreensPage = () => {
   const data = [
-    { title: "Tags and Titles", image: plasticAndWoodScreens1, key: 1 },
-    { title: "Tags and Titles", image: plasticAndWoodScreens2, key: 2 },
-    { title: "Tags and Titles", image: plasticAndWoodScreens3, key: 3 },
-    { title: "Tags and Titles", image: plasticAndWoodScreens4, key: 4 },
-    { title: "Tags and Titles", image: plasticAndWoodScreens5, key: 5 },
-    { title: "Tags and Titles", image: plasticAndWoodScreens6, key: 6 },
-    { title: "Tags and Titles", image: plasticAndWoodScreens7, key: 7 },
-    { title: "Tags and Titles", image: plasticAndWoodScreens8, key: 8 },
-    { title: "Tags and Titles", image: plasticAndWoodScreens9, key: 9 },
-    { title: "Tags and Titles", image: plasticAndWoodScreens10, key: 10 },
-    { title: "Tags and Titles", image: plasticAndWoodScreens11, key: 11 },
-    { title: "Tags and Titles", image: plasticAndWoodScreens12, key: 12 },
+    {  image: plasticAndWoodScreens1, key: 1 },
+    {  image: plasticAndWoodScreens2, key: 2 },
+    {  image: plasticAndWoodScreens3, key: 3 },
+    {  image: plasticAndWoodScreens4, key: 4 },
+    {  image: plasticAndWoodScreens5, key: 5 },
+    {  image: plasticAndWoodScreens6, key: 6 },
+    {  image: plasticAndWoodScreens7, key: 7 },
+    {  image: plasticAndWoodScreens8, key: 8 },
+    {  image: plasticAndWoodScreens9, key: 9 },
+    {  image: plasticAndWoodScreens10, key: 10 },
+    {  image: plasticAndWoodScreens11, key: 11 },
+    {  image: plasticAndWoodScreens12, key: 12 },
   ];
 
   return (
@@ -94,8 +94,8 @@ const PlasticAndWoodScreensPage = () => {
         </div>
       </div>
       <div className="md:px-10 photos gap-5 flex justify-center items-center flex-wrap">
-        {data.map(({ title, image, key }) => (
-          <ImageCard key={key} title={title} image={image} />
+        {data.map(({  image, key }) => (
+          <ImageCard key={key} image={image} />
         ))}
       </div>
     </div>

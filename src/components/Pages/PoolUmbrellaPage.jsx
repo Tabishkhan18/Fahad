@@ -20,20 +20,20 @@ import ImageCard from './ImageCard';
 
 const PoolUmbrellaPage = () => {
   const data = [
-    { title: "Tags and Titles", image: poolUmbrella1, key: 1 },
-    { title: "Tags and Titles", image: poolUmbrella2, key: 2 },
-    { title: "Tags and Titles", image: poolUmbrella3, key: 3 },
-    { title: "Tags and Titles", image: poolUmbrella4, key: 4 },
-    { title: "Tags and Titles", image: poolUmbrella5, key: 5 },
-    { title: "Tags and Titles", image: poolUmbrella6, key: 6 },
-    { title: "Tags and Titles", image: poolUmbrella7, key: 7 },
-    { title: "Tags and Titles", image: poolUmbrella8, key: 8 },
-    { title: "Tags and Titles", image: poolUmbrella9, key: 9 },
-    { title: "Tags and Titles", image: poolUmbrella10, key: 10 },
-    { title: "Tags and Titles", image: poolUmbrella11, key: 11 },
-    { title: "Tags and Titles", image: poolUmbrella12, key: 12 },
-    { title: "Tags and Titles", image: poolUmbrella13, key: 13 },
-    { title: "Tags and Titles", image: poolUmbrella14, key: 14 },
+    {  image: poolUmbrella1, key: 1 },
+    {  image: poolUmbrella2, key: 2 },
+    {  image: poolUmbrella3, key: 3 },
+    {  image: poolUmbrella4, key: 4 },
+    {  image: poolUmbrella5, key: 5 },
+    {  image: poolUmbrella6, key: 6 },
+    {  image: poolUmbrella7, key: 7 },
+    {  image: poolUmbrella8, key: 8 },
+    {  image: poolUmbrella9, key: 9 },
+    {  image: poolUmbrella10, key: 10 },
+    {  image: poolUmbrella11, key: 11 },
+    {  image: poolUmbrella12, key: 12 },
+    {  image: poolUmbrella13, key: 13 },
+    {  image: poolUmbrella14, key: 14 },
   ];
 
   return (
@@ -82,8 +82,8 @@ const PoolUmbrellaPage = () => {
         </div>
       </div>
       <div className="md:px-10 photos gap-5 flex justify-center items-center flex-wrap">
-        {data.map(({ title, image, key }) => (
-          <ImageCard key={key} title={title} image={image} />
+        {data.map(({  image, key }) => (
+          <ImageCard key={key}  image={image} />
         ))}
       </div>
     </div>

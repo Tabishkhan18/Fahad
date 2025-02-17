@@ -20,20 +20,20 @@ import ImageCard from './ImageCard';
 
 const SeatingUmbrellaPage = () => {
   const data = [
-    { title: "Tags and Titles", image: seatingUmbrella1, key: 1 },
-    { title: "Tags and Titles", image: seatingUmbrella2, key: 2 },
-    { title: "Tags and Titles", image: seatingUmbrella3, key: 3 },
-    { title: "Tags and Titles", image: seatingUmbrella4, key: 4 },
-    { title: "Tags and Titles", image: seatingUmbrella5, key: 5 },
-    { title: "Tags and Titles", image: seatingUmbrella6, key: 6 },
-    { title: "Tags and Titles", image: seatingUmbrella7, key: 7 },
-    { title: "Tags and Titles", image: seatingUmbrella8, key: 8 },
-    { title: "Tags and Titles", image: seatingUmbrella9, key: 9 },
-    { title: "Tags and Titles", image: seatingUmbrella10, key: 10 },
-    { title: "Tags and Titles", image: seatingUmbrella11, key: 11 },
-    { title: "Tags and Titles", image: seatingUmbrella12, key: 12 },
-    { title: "Tags and Titles", image: seatingUmbrella13, key: 13 },
-    { title: "Tags and Titles", image: seatingUmbrella14, key: 14 },
+    {  image: seatingUmbrella1, key: 1 },
+    {  image: seatingUmbrella2, key: 2 },
+    {  image: seatingUmbrella3, key: 3 },
+    {  image: seatingUmbrella4, key: 4 },
+    {  image: seatingUmbrella5, key: 5 },
+    {  image: seatingUmbrella6, key: 6 },
+    {  image: seatingUmbrella7, key: 7 },
+    {  image: seatingUmbrella8, key: 8 },
+    {  image: seatingUmbrella9, key: 9 },
+    {  image: seatingUmbrella10, key: 10 },
+    {  image: seatingUmbrella11, key: 11 },
+    {  image: seatingUmbrella12, key: 12 },
+    {  image: seatingUmbrella13, key: 13 },
+    {  image: seatingUmbrella14, key: 14 },
   ];
 
   return (
@@ -75,8 +75,8 @@ const SeatingUmbrellaPage = () => {
         </div>
       </div>
       <div className="md:px-10 photos gap-5 flex justify-center items-center flex-wrap">
-        {data.map(({ title, image, key }) => (
-          <ImageCard key={key} title={title} image={image} />
+        {data.map(({  image, key }) => (
+          <ImageCard key={key} image={image} />
         ))}
       </div>
     </div>

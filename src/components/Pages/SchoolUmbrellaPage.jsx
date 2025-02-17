@@ -20,20 +20,20 @@ import ImageCard from './ImageCard';
 
 const SchoolUmbrellaPage = () => {
   const data = [
-    { title: "Tags and Titles", image: schoolUmbrella1, key: 1 },
-    { title: "Tags and Titles", image: schoolUmbrella2, key: 2 },
-    { title: "Tags and Titles", image: schoolUmbrella3, key: 3 },
-    { title: "Tags and Titles", image: schoolUmbrella4, key: 4 },
-    { title: "Tags and Titles", image: schoolUmbrella5, key: 5 },
-    { title: "Tags and Titles", image: schoolUmbrella6, key: 6 },
-    { title: "Tags and Titles", image: schoolUmbrella7, key: 7 },
-    { title: "Tags and Titles", image: schoolUmbrella8, key: 8 },
-    { title: "Tags and Titles", image: schoolUmbrella9, key: 9 },
-    { title: "Tags and Titles", image: schoolUmbrella10, key: 10 },
-    { title: "Tags and Titles", image: schoolUmbrella11, key: 11 },
-    { title: "Tags and Titles", image: schoolUmbrella12, key: 12 },
-    { title: "Tags and Titles", image: schoolUmbrella13, key: 13 },
-    { title: "Tags and Titles", image: schoolUmbrella14, key: 14 },
+    {  image: schoolUmbrella1, key: 1 },
+    {  image: schoolUmbrella2, key: 2 },
+    {  image: schoolUmbrella3, key: 3 },
+    {  image: schoolUmbrella4, key: 4 },
+    {  image: schoolUmbrella5, key: 5 },
+    {  image: schoolUmbrella6, key: 6 },
+    {  image: schoolUmbrella7, key: 7 },
+    {  image: schoolUmbrella8, key: 8 },
+    {  image: schoolUmbrella9, key: 9 },
+    {  image: schoolUmbrella10, key: 10 },
+    {  image: schoolUmbrella11, key: 11 },
+    {  image: schoolUmbrella12, key: 12 },
+    {  image: schoolUmbrella13, key: 13 },
+    {  image: schoolUmbrella14, key: 14 },
   ];
 
   return (
@@ -83,8 +83,8 @@ const SchoolUmbrellaPage = () => {
         </div>
       </div>
       <div className="md:px-10 photos gap-5 flex justify-center items-center flex-wrap">
-        {data.map(({ title, image, key }) => (
-          <ImageCard key={key} title={title} image={image} />
+        {data.map(({  image, key }) => (
+          <ImageCard key={key} image={image} />
         ))}
       </div>
     </div>

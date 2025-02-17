@@ -17,17 +17,17 @@ import ImageCard from './ImageCard';
 
 const WinterSeatingUmbrellaPage = () => {
   const data = [
-    { title: "Tags and Titles", image: winterSeatingUmbrella1, key: 1 },
-    { title: "Tags and Titles", image: winterSeatingUmbrella2, key: 2 },
-    { title: "Tags and Titles", image: winterSeatingUmbrella3, key: 3 },
-    { title: "Tags and Titles", image: winterSeatingUmbrella4, key: 4 },
-    { title: "Tags and Titles", image: winterSeatingUmbrella5, key: 5 },
-    { title: "Tags and Titles", image: winterSeatingUmbrella6, key: 6 },
-    { title: "Tags and Titles", image: winterSeatingUmbrella7, key: 7 },
-    { title: "Tags and Titles", image: winterSeatingUmbrella8, key: 8 },
-    { title: "Tags and Titles", image: winterSeatingUmbrella9, key: 9 },
-    { title: "Tags and Titles", image: winterSeatingUmbrella10, key: 10 },
-    { title: "Tags and Titles", image: winterSeatingUmbrella11, key: 11 },
+    {  image: winterSeatingUmbrella1, key: 1 },
+    {  image: winterSeatingUmbrella2, key: 2 },
+    {  image: winterSeatingUmbrella3, key: 3 },
+    {  image: winterSeatingUmbrella4, key: 4 },
+    {  image: winterSeatingUmbrella5, key: 5 },
+    {  image: winterSeatingUmbrella6, key: 6 },
+    {  image: winterSeatingUmbrella7, key: 7 },
+    {  image: winterSeatingUmbrella8, key: 8 },
+    {  image: winterSeatingUmbrella9, key: 9 },
+    {  image: winterSeatingUmbrella10, key: 10 },
+    {  image: winterSeatingUmbrella11, key: 11 },
   ];
 
   return (
@@ -52,8 +52,8 @@ const WinterSeatingUmbrellaPage = () => {
         </div>
       </div>
       <div className="md:px-10 photos gap-5 flex justify-center items-center flex-wrap">
-        {data.map(({ title, image, key }) => (
-          <ImageCard key={key} title={title} image={image} />
+        {data.map(({  image, key }) => (
+          <ImageCard key={key} image={image} />
         ))}
       </div>
     </div>

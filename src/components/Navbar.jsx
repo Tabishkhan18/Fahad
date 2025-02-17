@@ -164,7 +164,8 @@ const Navbar = () => (
                         </Dropdown>
                         {/* </Link> */}
                     </li>
-                    <li className='text-md text-white hover:text-green-500 transition ease-in-out duration-200 px-4 py-2 cursor-pointer'><Link to='/' spy={true} smooth={true} offset={-100} duration={500} >
+                    <li className='text-md text-white hover:text-green-500 transition ease-in-out duration-200 px-4 py-2 cursor-pointer'>
+                        <Link to='/Fahad/' spy={true} smooth={true} offset={-100} duration={500} >
                         الرائيسية
                         {/* Home */}
                     </Link></li>

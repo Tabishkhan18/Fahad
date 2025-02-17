@@ -169,7 +169,7 @@ const MobileNavbar = () => {
                     <nav>
                         <ul className='flex flex-col items-center uppercase'>
                             <li className='"text-md text-white hover:text-green-500 transition ease-in-out duration-200 px-4 py-2 rounded-full  cursor-pointer'>
-                                <Link to='/' spy={true} smooth={true} offset={-100} duration={500} >
+                                <Link to='/Fahad/' spy={true} smooth={true} offset={-100} duration={500} >
                                     الرائيسية
                                     {/* Home */}
                                 </Link>

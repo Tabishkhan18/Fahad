@@ -26,26 +26,26 @@ import ImageCard from './ImageCard';
 
 const ParkingShadesPage = () => {
   const data = [
-    { title: "Tags and Titles", image: parkingShades1, key: 1 },
-    { title: "Tags and Titles", image: parkingShades2, key: 2 },
-    { title: "Tags and Titles", image: parkingShades3, key: 3 },
-    { title: "Tags and Titles", image: parkingShades4, key: 4 },
-    { title: "Tags and Titles", image: parkingShades5, key: 5 },
-    { title: "Tags and Titles", image: parkingShades6, key: 6 },
-    { title: "Tags and Titles", image: parkingShades7, key: 7 },
-    { title: "Tags and Titles", image: parkingShades8, key: 8 },
-    { title: "Tags and Titles", image: parkingShades9, key: 9 },
-    { title: "Tags and Titles", image: parkingShades10, key: 10 },
-    { title: "Tags and Titles", image: parkingShades11, key: 11 },
-    { title: "Tags and Titles", image: parkingShades12, key: 12 },
-    { title: "Tags and Titles", image: parkingShades13, key: 13 },
-    { title: "Tags and Titles", image: parkingShades14, key: 14 },
-    { title: "Tags and Titles", image: parkingShades15, key: 15 },
-    { title: "Tags and Titles", image: parkingShades16, key: 16 },
-    { title: "Tags and Titles", image: parkingShades17, key: 17 },
-    { title: "Tags and Titles", image: parkingShades18, key: 18 },
-    { title: "Tags and Titles", image: parkingShades19, key: 19 },
-    { title: "Tags and Titles", image: parkingShades20, key: 20 },
+    { image: parkingShades1, key: 1 },
+    { image: parkingShades2, key: 2 },
+    { image: parkingShades3, key: 3 },
+    { image: parkingShades4, key: 4 },
+    { image: parkingShades5, key: 5 },
+    { image: parkingShades6, key: 6 },
+    { image: parkingShades7, key: 7 },
+    { image: parkingShades8, key: 8 },
+    { image: parkingShades9, key: 9 },
+    { image: parkingShades10, key: 10 },
+    { image: parkingShades11, key: 11 },
+    { image: parkingShades12, key: 12 },
+    { image: parkingShades13, key: 13 },
+    { image: parkingShades14, key: 14 },
+    { image: parkingShades15, key: 15 },
+    { image: parkingShades16, key: 16 },
+    { image: parkingShades17, key: 17 },
+    { image: parkingShades18, key: 18 },
+    { image: parkingShades19, key: 19 },
+    { image: parkingShades20, key: 20 },
   ];
 
   return (
@@ -57,62 +57,62 @@ const ParkingShadesPage = () => {
         </h1>
         <div className='flex flex-col gap-5'>
           <p className='md:text-lg text-base'>
-          تعتبر مظلات سيارات من أهم المنتجات الأساسية لدينا في
-المؤسسة وعلى رأس أولوياتنا لما لهذا المنتج من
-أهمية كبرى لدى المستهلك نظراً لحرارة الشمس الحارقة خاصة
-في بلدان الخليج العربي لحماية السيارة ومحتوياتها من التلف
-وللتخفيف من حرارة الشمس على محتويات السيارة الداخلية
+            تعتبر مظلات سيارات من أهم المنتجات الأساسية لدينا في
+            المؤسسة وعلى رأس أولوياتنا لما لهذا المنتج من
+            أهمية كبرى لدى المستهلك نظراً لحرارة الشمس الحارقة خاصة
+            في بلدان الخليج العربي لحماية السيارة ومحتوياتها من التلف
+            وللتخفيف من حرارة الشمس على محتويات السيارة الداخلية
 
-          
+
           </p>
           <p className='md:text-lg text-base'>
-          مميزات مظلات السيارات
- 
-بإمكانية إبتكار مظلات بمساحات واحجام مختلفه
- 
-حسب رغبة العملاء بتصاميم فريده بالفخامه والجودة والسعر
-المناسب
- 
-وتتوفر المظلات لدينا بتشكيلات متعددة لحجب اشعة الشمس
-بنسبة 100٪ واخرى لدخول ضوء خافت حسب الطلب وبالوان
-متعددة وسماكات متدرجة
-          
+            مميزات مظلات السيارات
+
+            بإمكانية إبتكار مظلات بمساحات واحجام مختلفه
+
+            حسب رغبة العملاء بتصاميم فريده بالفخامه والجودة والسعر
+            المناسب
+
+            وتتوفر المظلات لدينا بتشكيلات متعددة لحجب اشعة الشمس
+            بنسبة 100٪ واخرى لدخول ضوء خافت حسب الطلب وبالوان
+            متعددة وسماكات متدرجة
+
           </p>
           <p className='md:text-lg text-base'>
-          
-متطورة وذات مواصفات عالية.
- 
- معلقة بدون أعمدة من الأمام لسهولة التوقف والحركة.
-  
- ذات أشكال جديدة ورائعة, منها الهرمي ومنها المقوسة
- وغيرها 
-  
- متوفرة بكافة أشكالها وأحجامها.
-  
-  وتصنف مظلات السيارات الى عدة اسماء للاستخدام
- منها:
- 
-          
+
+            متطورة وذات مواصفات عالية.
+
+            معلقة بدون أعمدة من الأمام لسهولة التوقف والحركة.
+
+            ذات أشكال جديدة ورائعة, منها الهرمي ومنها المقوسة
+            وغيرها
+
+            متوفرة بكافة أشكالها وأحجامها.
+
+            وتصنف مظلات السيارات الى عدة اسماء للاستخدام
+            منها:
+
+
           </p>
           <p className='md:text-lg text-base'>
-          مظلات هرميه
- 
-مظلات مخروطية
- 
-مظلات بي في سي
- 
-مظلات شد انشائى
- 
-مظلات كابولى ‏ –
- 
-مظلات الجناح الطائر
-          
+            مظلات هرميه
+
+            مظلات مخروطية
+
+            مظلات بي في سي
+
+            مظلات شد انشائى
+
+            مظلات كابولى ‏ –
+
+            مظلات الجناح الطائر
+
           </p>
         </div>
       </div>
       <div className="md:px-10 photos gap-5 flex justify-center items-center flex-wrap">
-        {data.map(({ title, image, key }) => (
-          <ImageCard key={key} title={title} image={image} />
+        {data.map(({  image, key }) => (
+          <ImageCard key={key}  image={image} />
         ))}
       </div>
     </div>

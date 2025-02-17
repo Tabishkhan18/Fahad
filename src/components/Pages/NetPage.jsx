@@ -17,17 +17,17 @@ import ImageCard from './ImageCard';
 
 const NetPage = () => {
   const data = [
-    { title: "Tags and Titles", image: net1, key: 1 },
-    { title: "Tags and Titles", image: net2, key: 2 },
-    { title: "Tags and Titles", image: net3, key: 3 },
-    { title: "Tags and Titles", image: net4, key: 4 },
-    { title: "Tags and Titles", image: net5, key: 5 },
-    { title: "Tags and Titles", image: net6, key: 6 },
-    { title: "Tags and Titles", image: net7, key: 7 },
-    { title: "Tags and Titles", image: net8, key: 8 },
-    { title: "Tags and Titles", image: net9, key: 9 },
-    { title: "Tags and Titles", image: net10, key: 10 },
-    { title: "Tags and Titles", image: net11, key: 11 },
+    {  image: net1, key: 1 },
+    {  image: net2, key: 2 },
+    {  image: net3, key: 3 },
+    {  image: net4, key: 4 },
+    {  image: net5, key: 5 },
+    {  image: net6, key: 6 },
+    {  image: net7, key: 7 },
+    {  image: net8, key: 8 },
+    {  image: net9, key: 9 },
+    {  image: net10, key: 10 },
+    {  image: net11, key: 11 },
   ];
 
   return (
@@ -66,8 +66,8 @@ const NetPage = () => {
         </div>
       </div>
       <div className="md:px-10 photos gap-5 flex justify-center items-center flex-wrap">
-        {data.map(({ title, image, key }) => (
-          <ImageCard key={key} title={title} image={image} />
+        {data.map(({  image, key }) => (
+          <ImageCard key={key} image={image} />
         ))}
       </div>
     </div>

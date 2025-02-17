@@ -15,15 +15,15 @@ import ImageCard from './ImageCard';
 
 const ClothScreenPage = () => {
   const data = [
-    { title: "Tags and Titles", image: clothScreen1, key: 1 },
-    { title: "Tags and Titles", image: clothScreen2, key: 2 },
-    { title: "Tags and Titles", image: clothScreen3, key: 3 },
-    { title: "Tags and Titles", image: clothScreen4, key: 4 },
-    { title: "Tags and Titles", image: clothScreen5, key: 5 },
-    { title: "Tags and Titles", image: clothScreen6, key: 6 },
-    { title: "Tags and Titles", image: clothScreen7, key: 7 },
-    { title: "Tags and Titles", image: clothScreen8, key: 8 },
-    { title: "Tags and Titles", image: clothScreen9, key: 9 },
+    {  image: clothScreen1, key: 1 },
+    {  image: clothScreen2, key: 2 },
+    {  image: clothScreen3, key: 3 },
+    {  image: clothScreen4, key: 4 },
+    {  image: clothScreen5, key: 5 },
+    {  image: clothScreen6, key: 6 },
+    {  image: clothScreen7, key: 7 },
+    {  image: clothScreen8, key: 8 },
+    {  image: clothScreen9, key: 9 },
   ]
 
   return (
@@ -49,8 +49,8 @@ const ClothScreenPage = () => {
         </div>
       </div>
       <div className="md:px-10 photos gap-5 flex justify-center items-center flex-wrap">
-        {data.map(({ title, image, key }) => (
-          <ImageCard key={key} title={title} image={image} />
+        {data.map(({ image, key }) => (
+          <ImageCard key={key} image={image} />
         ))}
       </div>
     </div>

@@ -17,17 +17,17 @@ import ImageCard from './ImageCard';
 
 const TensileStructureCanopyPage = () => {
   const data = [
-    { title: "Tags and Titles", image: tensileStructureCanopy1, key: 1 },
-    { title: "Tags and Titles", image: tensileStructureCanopy2, key: 2 },
-    { title: "Tags and Titles", image: tensileStructureCanopy3, key: 3 },
-    { title: "Tags and Titles", image: tensileStructureCanopy4, key: 4 },
-    { title: "Tags and Titles", image: tensileStructureCanopy5, key: 5 },
-    { title: "Tags and Titles", image: tensileStructureCanopy6, key: 6 },
-    { title: "Tags and Titles", image: tensileStructureCanopy7, key: 7 },
-    { title: "Tags and Titles", image: tensileStructureCanopy8, key: 8 },
-    { title: "Tags and Titles", image: tensileStructureCanopy9, key: 9 },
-    { title: "Tags and Titles", image: tensileStructureCanopy10, key: 10 },
-    { title: "Tags and Titles", image: tensileStructureCanopy11, key: 11 },
+    {  image: tensileStructureCanopy1, key: 1 },
+    {  image: tensileStructureCanopy2, key: 2 },
+    {  image: tensileStructureCanopy3, key: 3 },
+    {  image: tensileStructureCanopy4, key: 4 },
+    {  image: tensileStructureCanopy5, key: 5 },
+    {  image: tensileStructureCanopy6, key: 6 },
+    {  image: tensileStructureCanopy7, key: 7 },
+    {  image: tensileStructureCanopy8, key: 8 },
+    {  image: tensileStructureCanopy9, key: 9 },
+    {  image: tensileStructureCanopy10, key: 10 },
+    {  image: tensileStructureCanopy11, key: 11 },
   ];
 
   return (
@@ -55,8 +55,8 @@ const TensileStructureCanopyPage = () => {
         </div>
       </div>
       <div className="md:px-10 photos gap-5 flex justify-center items-center flex-wrap">
-        {data.map(({ title, image, key }) => (
-          <ImageCard key={key} title={title} image={image} />
+        {data.map(({  image, key }) => (
+          <ImageCard key={key}  image={image} />
         ))}
       </div>
     </div>

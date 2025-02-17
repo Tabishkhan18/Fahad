@@ -18,18 +18,18 @@ import ImageCard from './ImageCard';
 
 const RemoteControlAwningsPage = () => {
   const data = [
-    { title: "Tags and Titles", image: remoteControlAwnings1, key: 1 },
-    { title: "Tags and Titles", image: remoteControlAwnings2, key: 2 },
-    { title: "Tags and Titles", image: remoteControlAwnings3, key: 3 },
-    { title: "Tags and Titles", image: remoteControlAwnings4, key: 4 },
-    { title: "Tags and Titles", image: remoteControlAwnings5, key: 5 },
-    { title: "Tags and Titles", image: remoteControlAwnings6, key: 6 },
-    { title: "Tags and Titles", image: remoteControlAwnings7, key: 7 },
-    { title: "Tags and Titles", image: remoteControlAwnings8, key: 8 },
-    { title: "Tags and Titles", image: remoteControlAwnings9, key: 9 },
-    { title: "Tags and Titles", image: remoteControlAwnings10, key: 10 },
-    { title: "Tags and Titles", image: remoteControlAwnings11, key: 11 },
-    { title: "Tags and Titles", image: remoteControlAwnings12, key: 12 },
+    {  image: remoteControlAwnings1, key: 1 },
+    {  image: remoteControlAwnings2, key: 2 },
+    {  image: remoteControlAwnings3, key: 3 },
+    {  image: remoteControlAwnings4, key: 4 },
+    {  image: remoteControlAwnings5, key: 5 },
+    {  image: remoteControlAwnings6, key: 6 },
+    {  image: remoteControlAwnings7, key: 7 },
+    {  image: remoteControlAwnings8, key: 8 },
+    {  image: remoteControlAwnings9, key: 9 },
+    {  image: remoteControlAwnings10, key: 10 },
+    {  image: remoteControlAwnings11, key: 11 },
+    {  image: remoteControlAwnings12, key: 12 },
   ];
 
   return (
@@ -82,8 +82,8 @@ const RemoteControlAwningsPage = () => {
         </div>
       </div>
       <div className="md:px-10 photos gap-5 flex justify-center items-center flex-wrap">
-        {data.map(({ title, image, key }) => (
-          <ImageCard key={key} title={title} image={image} />
+        {data.map(({  image, key }) => (
+          <ImageCard key={key}  image={image} />
         ))}
       </div>
     </div>

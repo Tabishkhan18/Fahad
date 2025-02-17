@@ -18,18 +18,18 @@ import ImageCard from './ImageCard';
 
 const PoetryHousesPage = () => {
   const data = [
-    { title: "Tags and Titles", image: poetryHouses1, key: 1 },
-    { title: "Tags and Titles", image: poetryHouses2, key: 2 },
-    { title: "Tags and Titles", image: poetryHouses3, key: 3 },
-    { title: "Tags and Titles", image: poetryHouses4, key: 4 },
-    { title: "Tags and Titles", image: poetryHouses5, key: 5 },
-    { title: "Tags and Titles", image: poetryHouses6, key: 6 },
-    { title: "Tags and Titles", image: poetryHouses7, key: 7 },
-    { title: "Tags and Titles", image: poetryHouses8, key: 8 },
-    { title: "Tags and Titles", image: poetryHouses9, key: 9 },
-    { title: "Tags and Titles", image: poetryHouses10, key: 10 },
-    { title: "Tags and Titles", image: poetryHouses11, key: 11 },
-    { title: "Tags and Titles", image: poetryHouses12, key: 12 },
+    {  image: poetryHouses1, key: 1 },
+    {  image: poetryHouses2, key: 2 },
+    {  image: poetryHouses3, key: 3 },
+    {  image: poetryHouses4, key: 4 },
+    {  image: poetryHouses5, key: 5 },
+    {  image: poetryHouses6, key: 6 },
+    {  image: poetryHouses7, key: 7 },
+    {  image: poetryHouses8, key: 8 },
+    {  image: poetryHouses9, key: 9 },
+    {  image: poetryHouses10, key: 10 },
+    {  image: poetryHouses11, key: 11 },
+    {  image: poetryHouses12, key: 12 },
   ];
 
   return (
@@ -68,8 +68,8 @@ const PoetryHousesPage = () => {
         </div>
       </div>
       <div className="md:px-10 photos gap-5 flex justify-center items-center flex-wrap">
-        {data.map(({ title, image, key }) => (
-          <ImageCard key={key} title={title} image={image} />
+        {data.map(({  image, key }) => (
+          <ImageCard key={key}  image={image} />
         ))}
       </div>
     </div>
