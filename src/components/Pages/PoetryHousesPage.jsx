@@ -1,17 +1,17 @@
 //import React from 'react';
 
-import poetryHouses1 from '/src/assets/poetryHouses/poetryHouses1.jpg';
-import poetryHouses2 from '/src/assets/poetryHouses/poetryHouses2.jpg';
-import poetryHouses3 from '/src/assets/poetryHouses/poetryHouses3.jpg';
-import poetryHouses4 from '/src/assets/poetryHouses/poetryHouses4.jpg';
-import poetryHouses5 from '/src/assets/poetryHouses/poetryHouses5.jpg';
-import poetryHouses6 from '/src/assets/poetryHouses/poetryHouses6.jpg';
-import poetryHouses7 from '/src/assets/poetryHouses/poetryHouses7.jpg';
-import poetryHouses8 from '/src/assets/poetryHouses/poetryHouses8.jpg';
-import poetryHouses9 from '/src/assets/poetryHouses/poetryHouses9.jpg';
-import poetryHouses10 from '/src/assets/poetryHouses/poetryHouses10.jpg';
-import poetryHouses11 from '/src/assets/poetryHouses/poetryHouses11.jpg';
-import poetryHouses12 from '/src/assets/poetryHouses/poetryHouses12.jpg';
+import poetryHouses1 from '/poetryHouses/poetryHouses1.jpg';
+import poetryHouses2 from '/poetryHouses/poetryHouses2.jpg';
+import poetryHouses3 from '/poetryHouses/poetryHouses3.jpg';
+import poetryHouses4 from '/poetryHouses/poetryHouses4.jpg';
+import poetryHouses5 from '/poetryHouses/poetryHouses5.jpg';
+import poetryHouses6 from '/poetryHouses/poetryHouses6.jpg';
+import poetryHouses7 from '/poetryHouses/poetryHouses7.jpg';
+import poetryHouses8 from '/poetryHouses/poetryHouses8.jpg';
+import poetryHouses9 from '/poetryHouses/poetryHouses9.jpg';
+import poetryHouses10 from '/poetryHouses/poetryHouses10.jpg';
+import poetryHouses11 from '/poetryHouses/poetryHouses11.jpg';
+import poetryHouses12 from '/poetryHouses/poetryHouses12.jpg';
 
 import ImageCard from './ImageCard';
 

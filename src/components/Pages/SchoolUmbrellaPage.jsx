@@ -1,19 +1,19 @@
 //import React from 'react';
 
-import schoolUmbrella1 from '/src/assets/schoolUmbrella/schoolUmbrella1.jpg';
-import schoolUmbrella2 from '/src/assets/schoolUmbrella/schoolUmbrella2.jpg';
-import schoolUmbrella3 from '/src/assets/schoolUmbrella/schoolUmbrella3.jpg';
-import schoolUmbrella4 from '/src/assets/schoolUmbrella/schoolUmbrella4.jpg';
-import schoolUmbrella5 from '/src/assets/schoolUmbrella/schoolUmbrella5.jpg';
-import schoolUmbrella6 from '/src/assets/schoolUmbrella/schoolUmbrella6.jpg';
-import schoolUmbrella7 from '/src/assets/schoolUmbrella/schoolUmbrella7.jpg';
-import schoolUmbrella8 from '/src/assets/schoolUmbrella/schoolUmbrella8.jpg';
-import schoolUmbrella9 from '/src/assets/schoolUmbrella/schoolUmbrella9.jpg';
-import schoolUmbrella10 from '/src/assets/schoolUmbrella/schoolUmbrella10.jpg';
-import schoolUmbrella11 from '/src/assets/schoolUmbrella/schoolUmbrella11.jpg';
-import schoolUmbrella12 from '/src/assets/schoolUmbrella/schoolUmbrella12.jpg';
-import schoolUmbrella13 from '/src/assets/schoolUmbrella/schoolUmbrella13.jpg';
-import schoolUmbrella14 from '/src/assets/schoolUmbrella/schoolUmbrella14.jpg';
+import schoolUmbrella1 from '/schoolUmbrella/schoolUmbrella1.jpg';
+import schoolUmbrella2 from '/schoolUmbrella/schoolUmbrella2.jpg';
+import schoolUmbrella3 from '/schoolUmbrella/schoolUmbrella3.jpg';
+import schoolUmbrella4 from '/schoolUmbrella/schoolUmbrella4.jpg';
+import schoolUmbrella5 from '/schoolUmbrella/schoolUmbrella5.jpg';
+import schoolUmbrella6 from '/schoolUmbrella/schoolUmbrella6.jpg';
+import schoolUmbrella7 from '/schoolUmbrella/schoolUmbrella7.jpg';
+import schoolUmbrella8 from '/schoolUmbrella/schoolUmbrella8.jpg';
+import schoolUmbrella9 from '/schoolUmbrella/schoolUmbrella9.jpg';
+import schoolUmbrella10 from '/schoolUmbrella/schoolUmbrella10.jpg';
+import schoolUmbrella11 from '/schoolUmbrella/schoolUmbrella11.jpg';
+import schoolUmbrella12 from '/schoolUmbrella/schoolUmbrella12.jpg';
+import schoolUmbrella13 from '/schoolUmbrella/schoolUmbrella13.jpg';
+import schoolUmbrella14 from '/schoolUmbrella/schoolUmbrella14.jpg';
 
 import ImageCard from './ImageCard';
 

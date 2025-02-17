@@ -1,19 +1,19 @@
 //import React from 'react';
 
-import seatingUmbrella1 from '/src/assets/seatingUmbrella/seatingUmbrella1.jpg';
-import seatingUmbrella2 from '/src/assets/seatingUmbrella/seatingUmbrella2.jpg';
-import seatingUmbrella3 from '/src/assets/seatingUmbrella/seatingUmbrella3.jpg';
-import seatingUmbrella4 from '/src/assets/seatingUmbrella/seatingUmbrella4.jpg';
-import seatingUmbrella5 from '/src/assets/seatingUmbrella/seatingUmbrella5.jpg';
-import seatingUmbrella6 from '/src/assets/seatingUmbrella/seatingUmbrella6.jpg';
-import seatingUmbrella7 from '/src/assets/seatingUmbrella/seatingUmbrella7.jpg';
-import seatingUmbrella8 from '/src/assets/seatingUmbrella/seatingUmbrella8.jpg';
-import seatingUmbrella9 from '/src/assets/seatingUmbrella/seatingUmbrella9.jpg';
-import seatingUmbrella10 from '/src/assets/seatingUmbrella/seatingUmbrella10.jpg';
-import seatingUmbrella11 from '/src/assets/seatingUmbrella/seatingUmbrella11.jpg';
-import seatingUmbrella12 from '/src/assets/seatingUmbrella/seatingUmbrella12.jpg';
-import seatingUmbrella13 from '/src/assets/seatingUmbrella/seatingUmbrella13.jpg';
-import seatingUmbrella14 from '/src/assets/seatingUmbrella/seatingUmbrella14.jpg';
+import seatingUmbrella1 from '/seatingUmbrella/seatingUmbrella1.jpg';
+import seatingUmbrella2 from '/seatingUmbrella/seatingUmbrella2.jpg';
+import seatingUmbrella3 from '/seatingUmbrella/seatingUmbrella3.jpg';
+import seatingUmbrella4 from '/seatingUmbrella/seatingUmbrella4.jpg';
+import seatingUmbrella5 from '/seatingUmbrella/seatingUmbrella5.jpg';
+import seatingUmbrella6 from '/seatingUmbrella/seatingUmbrella6.jpg';
+import seatingUmbrella7 from '/seatingUmbrella/seatingUmbrella7.jpg';
+import seatingUmbrella8 from '/seatingUmbrella/seatingUmbrella8.jpg';
+import seatingUmbrella9 from '/seatingUmbrella/seatingUmbrella9.jpg';
+import seatingUmbrella10 from '/seatingUmbrella/seatingUmbrella10.jpg';
+import seatingUmbrella11 from '/seatingUmbrella/seatingUmbrella11.jpg';
+import seatingUmbrella12 from '/seatingUmbrella/seatingUmbrella12.jpg';
+import seatingUmbrella13 from '/seatingUmbrella/seatingUmbrella13.jpg';
+import seatingUmbrella14 from '/seatingUmbrella/seatingUmbrella14.jpg';
 
 import ImageCard from './ImageCard';
 

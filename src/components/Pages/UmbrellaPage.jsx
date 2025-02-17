@@ -1,21 +1,21 @@
 //import React from 'react';
 
-import umbrella1 from '/src/assets/umbrella/umbrella1.jpg';
-import umbrella2 from '/src/assets/umbrella/umbrella2.jpg';
-import umbrella3 from '/src/assets/umbrella/umbrella3.jpg';
-import umbrella4 from '/src/assets/umbrella/umbrella4.jpg';
-import umbrella5 from '/src/assets/umbrella/umbrella5.jpg';
-import umbrella6 from '/src/assets/umbrella/umbrella6.jpg';
-import umbrella7 from '/src/assets/umbrella/umbrella7.jpg';
-import umbrella8 from '/src/assets/umbrella/umbrella8.jpg';
-import umbrella9 from '/src/assets/umbrella/umbrella9.jpg';
-import umbrella10 from '/src/assets/umbrella/umbrella10.jpg';
-import umbrella11 from '/src/assets/umbrella/umbrella11.jpg';
-import umbrella12 from '/src/assets/umbrella/umbrella12.jpg';
-import umbrella13 from '/src/assets/umbrella/umbrella13.jpg';
-import umbrella14 from '/src/assets/umbrella/umbrella14.jpg';
-import umbrella15 from '/src/assets/umbrella/umbrella15.jpg';
-import umbrella16 from '/src/assets/umbrella/umbrella16.jpg';
+import umbrella1 from '/umbrella/umbrella1.jpg';
+import umbrella2 from '/umbrella/umbrella2.jpg';
+import umbrella3 from '/umbrella/umbrella3.jpg';
+import umbrella4 from '/umbrella/umbrella4.jpg';
+import umbrella5 from '/umbrella/umbrella5.jpg';
+import umbrella6 from '/umbrella/umbrella6.jpg';
+import umbrella7 from '/umbrella/umbrella7.jpg';
+import umbrella8 from '/umbrella/umbrella8.jpg';
+import umbrella9 from '/umbrella/umbrella9.jpg';
+import umbrella10 from '/umbrella/umbrella10.jpg';
+import umbrella11 from '/umbrella/umbrella11.jpg';
+import umbrella12 from '/umbrella/umbrella12.jpg';
+import umbrella13 from '/umbrella/umbrella13.jpg';
+import umbrella14 from '/umbrella/umbrella14.jpg';
+import umbrella15 from '/umbrella/umbrella15.jpg';
+import umbrella16 from '/umbrella/umbrella16.jpg';
 
 import ImageCard from './ImageCard';
 

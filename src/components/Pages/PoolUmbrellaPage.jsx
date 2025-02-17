@@ -1,19 +1,19 @@
 //import React from 'react';
 
-import poolUmbrella1 from '/src/assets/poolUmbrella/poolUmbrella1.jpg';
-import poolUmbrella2 from '/src/assets/poolUmbrella/poolUmbrella2.jpg';
-import poolUmbrella3 from '/src/assets/poolUmbrella/poolUmbrella3.jpg';
-import poolUmbrella4 from '/src/assets/poolUmbrella/poolUmbrella4.jpg';
-import poolUmbrella5 from '/src/assets/poolUmbrella/poolUmbrella5.jpg';
-import poolUmbrella6 from '/src/assets/poolUmbrella/poolUmbrella6.jpg';
-import poolUmbrella7 from '/src/assets/poolUmbrella/poolUmbrella7.jpg';
-import poolUmbrella8 from '/src/assets/poolUmbrella/poolUmbrella8.jpg';
-import poolUmbrella9 from '/src/assets/poolUmbrella/poolUmbrella9.jpg';
-import poolUmbrella10 from '/src/assets/poolUmbrella/poolUmbrella10.jpg';
-import poolUmbrella11 from '/src/assets/poolUmbrella/poolUmbrella11.jpg';
-import poolUmbrella12 from '/src/assets/poolUmbrella/poolUmbrella12.jpg';
-import poolUmbrella13 from '/src/assets/poolUmbrella/poolUmbrella13.jpg';
-import poolUmbrella14 from '/src/assets/poolUmbrella/poolUmbrella14.jpg';
+import poolUmbrella1 from '/poolUmbrella/poolUmbrella1.jpg';
+import poolUmbrella2 from '/poolUmbrella/poolUmbrella2.jpg';
+import poolUmbrella3 from '/poolUmbrella/poolUmbrella3.jpg';
+import poolUmbrella4 from '/poolUmbrella/poolUmbrella4.jpg';
+import poolUmbrella5 from '/poolUmbrella/poolUmbrella5.jpg';
+import poolUmbrella6 from '/poolUmbrella/poolUmbrella6.jpg';
+import poolUmbrella7 from '/poolUmbrella/poolUmbrella7.jpg';
+import poolUmbrella8 from '/poolUmbrella/poolUmbrella8.jpg';
+import poolUmbrella9 from '/poolUmbrella/poolUmbrella9.jpg';
+import poolUmbrella10 from '/poolUmbrella/poolUmbrella10.jpg';
+import poolUmbrella11 from '/poolUmbrella/poolUmbrella11.jpg';
+import poolUmbrella12 from '/poolUmbrella/poolUmbrella12.jpg';
+import poolUmbrella13 from '/poolUmbrella/poolUmbrella13.jpg';
+import poolUmbrella14 from '/poolUmbrella/poolUmbrella14.jpg';
 
 import ImageCard from './ImageCard';
 

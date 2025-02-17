@@ -1,17 +1,17 @@
 //import React from 'react';
 
-import remoteControlAwnings1 from '/src/assets/remoteControlAwnings/remoteControlAwnings1.jpg';
-import remoteControlAwnings2 from '/src/assets/remoteControlAwnings/remoteControlAwnings2.jpg';
-import remoteControlAwnings3 from '/src/assets/remoteControlAwnings/remoteControlAwnings3.jpg';
-import remoteControlAwnings4 from '/src/assets/remoteControlAwnings/remoteControlAwnings4.jpg';
-import remoteControlAwnings5 from '/src/assets/remoteControlAwnings/remoteControlAwnings5.jpg';
-import remoteControlAwnings6 from '/src/assets/remoteControlAwnings/remoteControlAwnings6.jpg';
-import remoteControlAwnings7 from '/src/assets/remoteControlAwnings/remoteControlAwnings7.jpg';
-import remoteControlAwnings8 from '/src/assets/remoteControlAwnings/remoteControlAwnings8.jpg';
-import remoteControlAwnings9 from '/src/assets/remoteControlAwnings/remoteControlAwnings9.jpg';
-import remoteControlAwnings10 from '/src/assets/remoteControlAwnings/remoteControlAwnings10.jpg';
-import remoteControlAwnings11 from '/src/assets/remoteControlAwnings/remoteControlAwnings11.jpg';
-import remoteControlAwnings12 from '/src/assets/remoteControlAwnings/remoteControlAwnings12.jpg';
+import remoteControlAwnings1 from '/remoteControlAwnings/remoteControlAwnings1.jpg';
+import remoteControlAwnings2 from '/remoteControlAwnings/remoteControlAwnings2.jpg';
+import remoteControlAwnings3 from '/remoteControlAwnings/remoteControlAwnings3.jpg';
+import remoteControlAwnings4 from '/remoteControlAwnings/remoteControlAwnings4.jpg';
+import remoteControlAwnings5 from '/remoteControlAwnings/remoteControlAwnings5.jpg';
+import remoteControlAwnings6 from '/remoteControlAwnings/remoteControlAwnings6.jpg';
+import remoteControlAwnings7 from '/remoteControlAwnings/remoteControlAwnings7.jpg';
+import remoteControlAwnings8 from '/remoteControlAwnings/remoteControlAwnings8.jpg';
+import remoteControlAwnings9 from '/remoteControlAwnings/remoteControlAwnings9.jpg';
+import remoteControlAwnings10 from '/remoteControlAwnings/remoteControlAwnings10.jpg';
+import remoteControlAwnings11 from '/remoteControlAwnings/remoteControlAwnings11.jpg';
+import remoteControlAwnings12 from '/remoteControlAwnings/remoteControlAwnings12.jpg';
 
 import ImageCard from './ImageCard';
 

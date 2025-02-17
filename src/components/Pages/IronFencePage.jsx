@@ -1,21 +1,21 @@
 //import React from 'react';
 
-import ironFence1 from '/src/assets/ironFence/ironFence1.jpg';
-import ironFence2 from '/src/assets/ironFence/ironFence2.jpg';
-import ironFence3 from '/src/assets/ironFence/ironFence3.jpg';
-import ironFence4 from '/src/assets/ironFence/ironFence4.jpg';
-import ironFence5 from '/src/assets/ironFence/ironFence5.jpg';
-import ironFence6 from '/src/assets/ironFence/ironFence6.jpg';
-import ironFence7 from '/src/assets/ironFence/ironFence7.jpg';
-import ironFence8 from '/src/assets/ironFence/ironFence8.jpg';
-import ironFence9 from '/src/assets/ironFence/ironFence9.jpg';
-import ironFence10 from '/src/assets/ironFence/ironFence10.jpg';
-import ironFence11 from '/src/assets/ironFence/ironFence11.jpg';
-import ironFence12 from '/src/assets/ironFence/ironFence12.jpg';
-import ironFence13 from '/src/assets/ironFence/ironFence13.jpg';
-import ironFence14 from '/src/assets/ironFence/ironFence14.jpg';
-import ironFence15 from '/src/assets/ironFence/ironFence15.jpg';
-import ironFence16 from '/src/assets/ironFence/ironFence16.jpg';
+import ironFence1 from '/ironFence/ironFence1.jpg';
+import ironFence2 from '/ironFence/ironFence2.jpg';
+import ironFence3 from '/ironFence/ironFence3.jpg';
+import ironFence4 from '/ironFence/ironFence4.jpg';
+import ironFence5 from '/ironFence/ironFence5.jpg';
+import ironFence6 from '/ironFence/ironFence6.jpg';
+import ironFence7 from '/ironFence/ironFence7.jpg';
+import ironFence8 from '/ironFence/ironFence8.jpg';
+import ironFence9 from '/ironFence/ironFence9.jpg';
+import ironFence10 from '/ironFence/ironFence10.jpg';
+import ironFence11 from '/ironFence/ironFence11.jpg';
+import ironFence12 from '/ironFence/ironFence12.jpg';
+import ironFence13 from '/ironFence/ironFence13.jpg';
+import ironFence14 from '/ironFence/ironFence14.jpg';
+import ironFence15 from '/ironFence/ironFence15.jpg';
+import ironFence16 from '/ironFence/ironFence16.jpg';
 
 import ImageCard from './ImageCard';
 

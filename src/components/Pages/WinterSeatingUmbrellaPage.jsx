@@ -1,16 +1,16 @@
 //import React from 'react';
 
-import winterSeatingUmbrella1 from '/src/assets/winterSeatingUmbrella/winterSeatingUmbrella1.jpg';
-import winterSeatingUmbrella2 from '/src/assets/winterSeatingUmbrella/winterSeatingUmbrella2.jpg';
-import winterSeatingUmbrella3 from '/src/assets/winterSeatingUmbrella/winterSeatingUmbrella3.jpg';
-import winterSeatingUmbrella4 from '/src/assets/winterSeatingUmbrella/winterSeatingUmbrella4.jpg';
-import winterSeatingUmbrella5 from '/src/assets/winterSeatingUmbrella/winterSeatingUmbrella5.jpg';
-import winterSeatingUmbrella6 from '/src/assets/winterSeatingUmbrella/winterSeatingUmbrella6.jpg';
-import winterSeatingUmbrella7 from '/src/assets/winterSeatingUmbrella/winterSeatingUmbrella7.jpg';
-import winterSeatingUmbrella8 from '/src/assets/winterSeatingUmbrella/winterSeatingUmbrella8.jpg';
-import winterSeatingUmbrella9 from '/src/assets/winterSeatingUmbrella/winterSeatingUmbrella9.jpg';
-import winterSeatingUmbrella10 from '/src/assets/winterSeatingUmbrella/winterSeatingUmbrella10.jpg';
-import winterSeatingUmbrella11 from '/src/assets/winterSeatingUmbrella/winterSeatingUmbrella11.jpg';
+import winterSeatingUmbrella1 from '/winterSeatingUmbrella/winterSeatingUmbrella1.jpg';
+import winterSeatingUmbrella2 from '/winterSeatingUmbrella/winterSeatingUmbrella2.jpg';
+import winterSeatingUmbrella3 from '/winterSeatingUmbrella/winterSeatingUmbrella3.jpg';
+import winterSeatingUmbrella4 from '/winterSeatingUmbrella/winterSeatingUmbrella4.jpg';
+import winterSeatingUmbrella5 from '/winterSeatingUmbrella/winterSeatingUmbrella5.jpg';
+import winterSeatingUmbrella6 from '/winterSeatingUmbrella/winterSeatingUmbrella6.jpg';
+import winterSeatingUmbrella7 from '/winterSeatingUmbrella/winterSeatingUmbrella7.jpg';
+import winterSeatingUmbrella8 from '/winterSeatingUmbrella/winterSeatingUmbrella8.jpg';
+import winterSeatingUmbrella9 from '/winterSeatingUmbrella/winterSeatingUmbrella9.jpg';
+import winterSeatingUmbrella10 from '/winterSeatingUmbrella/winterSeatingUmbrella10.jpg';
+import winterSeatingUmbrella11 from '/winterSeatingUmbrella/winterSeatingUmbrella11.jpg';
 
 import ImageCard from './ImageCard';
 

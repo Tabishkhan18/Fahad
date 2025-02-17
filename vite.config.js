@@ -4,9 +4,9 @@ import tailwindcss from '@tailwindcss/vite'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: "/repositoryname/",
   plugins: [
     react(),
     tailwindcss(),
   ],
+  base: "/Fahad/",
 })

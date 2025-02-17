@@ -1,16 +1,16 @@
 //import React from 'react';
 
-import tensileStructureCanopy1 from '/src/assets/tensileStructureCanopy/tensileStructureCanopy1.jpg';
-import tensileStructureCanopy2 from '/src/assets/tensileStructureCanopy/tensileStructureCanopy2.jpg';
-import tensileStructureCanopy3 from '/src/assets/tensileStructureCanopy/tensileStructureCanopy3.jpg';
-import tensileStructureCanopy4 from '/src/assets/tensileStructureCanopy/tensileStructureCanopy4.jpg';
-import tensileStructureCanopy5 from '/src/assets/tensileStructureCanopy/tensileStructureCanopy5.jpg';
-import tensileStructureCanopy6 from '/src/assets/tensileStructureCanopy/tensileStructureCanopy6.jpg';
-import tensileStructureCanopy7 from '/src/assets/tensileStructureCanopy/tensileStructureCanopy7.jpg';
-import tensileStructureCanopy8 from '/src/assets/tensileStructureCanopy/tensileStructureCanopy8.jpg';
-import tensileStructureCanopy9 from '/src/assets/tensileStructureCanopy/tensileStructureCanopy9.jpg';
-import tensileStructureCanopy10 from '/src/assets/tensileStructureCanopy/tensileStructureCanopy10.jpg';
-import tensileStructureCanopy11 from '/src/assets/tensileStructureCanopy/tensileStructureCanopy11.jpg';
+import tensileStructureCanopy1 from '/tensileStructureCanopy/tensileStructureCanopy1.jpg';
+import tensileStructureCanopy2 from '/tensileStructureCanopy/tensileStructureCanopy2.jpg';
+import tensileStructureCanopy3 from '/tensileStructureCanopy/tensileStructureCanopy3.jpg';
+import tensileStructureCanopy4 from '/tensileStructureCanopy/tensileStructureCanopy4.jpg';
+import tensileStructureCanopy5 from '/tensileStructureCanopy/tensileStructureCanopy5.jpg';
+import tensileStructureCanopy6 from '/tensileStructureCanopy/tensileStructureCanopy6.jpg';
+import tensileStructureCanopy7 from '/tensileStructureCanopy/tensileStructureCanopy7.jpg';
+import tensileStructureCanopy8 from '/tensileStructureCanopy/tensileStructureCanopy8.jpg';
+import tensileStructureCanopy9 from '/tensileStructureCanopy/tensileStructureCanopy9.jpg';
+import tensileStructureCanopy10 from '/tensileStructureCanopy/tensileStructureCanopy10.jpg';
+import tensileStructureCanopy11 from '/tensileStructureCanopy/tensileStructureCanopy11.jpg';
 
 import ImageCard from './ImageCard';
 

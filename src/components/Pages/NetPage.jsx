@@ -1,16 +1,16 @@
 //import React from 'react';
 
-import net1 from '/src/assets/net/net1.jpg';
-import net2 from '/src/assets/net/net2.jpg';
-import net3 from '/src/assets/net/net3.jpg';
-import net4 from '/src/assets/net/net4.jpg';
-import net5 from '/src/assets/net/net5.jpg';
-import net6 from '/src/assets/net/net6.jpg';
-import net7 from '/src/assets/net/net7.jpg';
-import net8 from '/src/assets/net/net8.jpg';
-import net9 from '/src/assets/net/net9.jpg';
-import net10 from '/src/assets/net/net10.jpg';
-import net11 from '/src/assets/net/net11.jpg';
+import net1 from '/net/net1.jpg';
+import net2 from '/net/net2.jpg';
+import net3 from '/net/net3.jpg';
+import net4 from '/net/net4.jpg';
+import net5 from '/net/net5.jpg';
+import net6 from '/net/net6.jpg';
+import net7 from '/net/net7.jpg';
+import net8 from '/net/net8.jpg';
+import net9 from '/net/net9.jpg';
+import net10 from '/net/net10.jpg';
+import net11 from '/net/net11.jpg';
 
 import ImageCard from './ImageCard';
 

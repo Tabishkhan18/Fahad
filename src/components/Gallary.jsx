@@ -1,20 +1,20 @@
 // import React from "react";
 import AnimatedWrapper from "./AnimatedWrapper";
 import GallaryCard from "./GallaryCard";
-import image1 from '/src/assets/umbrella/umbrella6.jpg';
-import image2 from '/src/assets/schoolUmbrella/schoolUmbrella11.jpg';
-import image3 from '/src/assets/poolUmbrella/poolUmbrella4.jpg';
-import image4 from '/src/assets/plasticAndWoodScreens/plasticAndWoodScreens1.jpg';
-import image5 from '/src/assets/tensileStructureCanopy/tensileStructureCanopy8.jpg';
-import image6 from '/src/assets/seatingUmbrella/seatingUmbrella2.jpg';
-import image7 from '/src/assets/parkingShades/parkingShades2.jpg';
-import image8 from '/src/assets/clothScreen/clothScreen1.jpg';
-import image9 from '/src/assets/ironFence/ironFence14.jpg';
-import image10 from '/src/assets/net/net6.jpg';
-import image11 from '/src/assets/outdoorGardenUmbrella/outdoorGardenUmbrella17.jpg';
-import image12 from '/src/assets/poetryHouses/poetryHouses9.jpg';
-import image13 from '/src/assets/remoteControlAwnings/remoteControlAwnings1.jpg';
-import image14 from '/src/assets/winterSeatingUmbrella/winterSeatingUmbrella1.jpg';
+import image1 from '/umbrella/umbrella6.jpg';
+import image2 from '/schoolUmbrella/schoolUmbrella11.jpg';
+import image3 from '/poolUmbrella/poolUmbrella4.jpg';
+import image4 from '/plasticAndWoodScreens/plasticAndWoodScreens1.jpg';
+import image5 from '/tensileStructureCanopy/tensileStructureCanopy8.jpg';
+import image6 from '/seatingUmbrella/seatingUmbrella2.jpg';
+import image7 from '/parkingShades/parkingShades2.jpg';
+import image8 from '/clothScreen/clothScreen1.jpg';
+import image9 from '/ironFence/ironFence14.jpg';
+import image10 from '/net/net6.jpg';
+import image11 from '/outdoorGardenUmbrella/outdoorGardenUmbrella17.jpg';
+import image12 from '/poetryHouses/poetryHouses9.jpg';
+import image13 from '/remoteControlAwnings/remoteControlAwnings1.jpg';
+import image14 from '/winterSeatingUmbrella/winterSeatingUmbrella1.jpg';
 import "./Gallary.css";
 
 const data = {

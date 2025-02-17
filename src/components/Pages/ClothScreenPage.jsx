@@ -1,14 +1,14 @@
 //import React from 'react';
 
-import clothScreen1 from '/src/assets/clothScreen/clothScreen1.jpg';
-import clothScreen2 from '/src/assets/clothScreen/clothScreen2.jpg';
-import clothScreen3 from '/src/assets/clothScreen/clothScreen3.jpg';
-import clothScreen4 from '/src/assets/clothScreen/clothScreen4.jpg';
-import clothScreen5 from '/src/assets/clothScreen/clothScreen5.jpg';
-import clothScreen6 from '/src/assets/clothScreen/clothScreen6.jpg';
-import clothScreen7 from '/src/assets/clothScreen/clothScreen7.jpg';
-import clothScreen8 from '/src/assets/clothScreen/clothScreen8.jpg';
-import clothScreen9 from '/src/assets/clothScreen/clothScreen9.jpg';
+import clothScreen1 from '/clothScreen/clothScreen1.jpg';
+import clothScreen2 from '/clothScreen/clothScreen2.jpg';
+import clothScreen3 from '/clothScreen/clothScreen3.jpg';
+import clothScreen4 from '/clothScreen/clothScreen4.jpg';
+import clothScreen5 from '/clothScreen/clothScreen5.jpg';
+import clothScreen6 from '/clothScreen/clothScreen6.jpg';
+import clothScreen7 from '/clothScreen/clothScreen7.jpg';
+import clothScreen8 from '/clothScreen/clothScreen8.jpg';
+import clothScreen9 from '/clothScreen/clothScreen9.jpg';
 
 import ImageCard from './ImageCard';
 

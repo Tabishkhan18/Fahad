@@ -1,17 +1,17 @@
 //import React from 'react';
 
-import plasticAndWoodScreens1 from '/src/assets/plasticAndWoodScreens/plasticAndWoodScreens1.jpg';
-import plasticAndWoodScreens2 from '/src/assets/plasticAndWoodScreens/plasticAndWoodScreens2.jpg';
-import plasticAndWoodScreens3 from '/src/assets/plasticAndWoodScreens/plasticAndWoodScreens3.jpg';
-import plasticAndWoodScreens4 from '/src/assets/plasticAndWoodScreens/plasticAndWoodScreens4.jpg';
-import plasticAndWoodScreens5 from '/src/assets/plasticAndWoodScreens/plasticAndWoodScreens5.jpg';
-import plasticAndWoodScreens6 from '/src/assets/plasticAndWoodScreens/plasticAndWoodScreens6.jpg';
-import plasticAndWoodScreens7 from '/src/assets/plasticAndWoodScreens/plasticAndWoodScreens7.jpg';
-import plasticAndWoodScreens8 from '/src/assets/plasticAndWoodScreens/plasticAndWoodScreens8.jpg';
-import plasticAndWoodScreens9 from '/src/assets/plasticAndWoodScreens/plasticAndWoodScreens9.jpg';
-import plasticAndWoodScreens10 from '/src/assets/plasticAndWoodScreens/plasticAndWoodScreens10.jpg';
-import plasticAndWoodScreens11 from '/src/assets/plasticAndWoodScreens/plasticAndWoodScreens11.jpg';
-import plasticAndWoodScreens12 from '/src/assets/plasticAndWoodScreens/plasticAndWoodScreens12.jpg';
+import plasticAndWoodScreens1 from '/plasticAndWoodScreens/plasticAndWoodScreens1.jpg';
+import plasticAndWoodScreens2 from '/plasticAndWoodScreens/plasticAndWoodScreens2.jpg';
+import plasticAndWoodScreens3 from '/plasticAndWoodScreens/plasticAndWoodScreens3.jpg';
+import plasticAndWoodScreens4 from '/plasticAndWoodScreens/plasticAndWoodScreens4.jpg';
+import plasticAndWoodScreens5 from '/plasticAndWoodScreens/plasticAndWoodScreens5.jpg';
+import plasticAndWoodScreens6 from '/plasticAndWoodScreens/plasticAndWoodScreens6.jpg';
+import plasticAndWoodScreens7 from '/plasticAndWoodScreens/plasticAndWoodScreens7.jpg';
+import plasticAndWoodScreens8 from '/plasticAndWoodScreens/plasticAndWoodScreens8.jpg';
+import plasticAndWoodScreens9 from '/plasticAndWoodScreens/plasticAndWoodScreens9.jpg';
+import plasticAndWoodScreens10 from '/plasticAndWoodScreens/plasticAndWoodScreens10.jpg';
+import plasticAndWoodScreens11 from '/plasticAndWoodScreens/plasticAndWoodScreens11.jpg';
+import plasticAndWoodScreens12 from '/plasticAndWoodScreens/plasticAndWoodScreens12.jpg';
 
 import ImageCard from './ImageCard';
 

@@ -1,8 +1,8 @@
 // import React from 'react'
 import '../App.css'
-import bgImage from '/src/assets/bg.jpg';
-import mobilebgImage from '/src/assets/mobilebg.jpg';
-import cardImage from '/src/assets/card.jpg';
+import bgImage from '/bg.jpg';
+import mobilebgImage from '/mobilebg.jpg';
+import cardImage from '/card.jpg';
 import { FaQuestionCircle } from "react-icons/fa";
 import { FaHeartCircleCheck } from "react-icons/fa6";
 import { MdFiberNew } from "react-icons/md";
