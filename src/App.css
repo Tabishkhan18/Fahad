@@ -1,0 +1,61 @@
+.wrapper {
+    height: 100vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    perspective: 10px;
+}
+
+
+/* .wrapper::-webkit-scrollbar {
+    display: none;
+} */
+
+.header {
+    position: relative;
+    display: flex;
+    justify-content: end;
+    /* align-items: center; */
+    /* height: 100%; */
+    transform-style: preserve-3d;
+    z-index: -1;
+
+}
+
+.bg {
+    position: absolute;
+    /* height: 100%; */
+    /* top: 40rem; */
+    width: 100%;
+    object-fit: cover;
+    opacity: inherit;
+    z-index: -10;
+    transform: translateZ(-30px) scale(4.3);
+}
+
+.mobilebg {
+    position: absolute;
+    /* height: 100%; */
+    width: 100%;
+    object-fit: cover;
+    z-index: -10;
+    transform: translateZ(-40px) scale(8.7);
+}
+
+
+.detailCard {
+    border-radius: 30px;
+    background: #efefef;
+    box-shadow: 15px 15px 30px #bebebe,
+        -15px -15px 30px #ffffff;
+}
+
+.gradientBg{
+    background: linear-gradient(0deg, rgba(3,46,21,1) 0%, rgba(0,201,81,1) 100%);
+}
+
+
+.smallCard:hover{
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px #bebebe,
+        -10px -10px 20px #ffffff;
+}
