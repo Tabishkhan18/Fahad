@@ -6,6 +6,7 @@
 }
 
 
+
 /* .wrapper::-webkit-scrollbar {
     display: none;
 } */
@@ -45,17 +46,25 @@
 .detailCard {
     border-radius: 30px;
     background: #efefef;
-    box-shadow: 15px 15px 30px #bebebe,
-        -15px -15px 30px #ffffff;
+    box-shadow: 15px 15px 30px #bebebe;
 }
 
-.gradientBg{
-    background: linear-gradient(0deg, rgba(3,46,21,1) 0%, rgba(0,201,81,1) 100%);
+.gradientBg {
+    background: linear-gradient(0deg, rgba(3, 46, 21, 1) 0%, rgba(0, 201, 81, 1) 100%);
 }
 
 
-.smallCard:hover{
+.smallCard:hover {
     border-radius: 20px;
-    box-shadow: 10px 10px 20px #bebebe,
-        -10px -10px 20px #ffffff;
+    box-shadow: 10px 10px 20px #bebebe
+        ;
+}
+
+
+
+.pattern {
+    background-color: #e6f7ee;
+    /* opacity: 0.6; */
+    background-image: radial-gradient(#45f752 1px, #e6f7ee 1px);
+    background-size: 20px 20px;
 }

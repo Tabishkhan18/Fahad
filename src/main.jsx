@@ -21,76 +21,75 @@ import RemoteControlAwningsPage from './components/Pages/RemoteControlAwningsPag
 import WinterSeatingUmbrellaPage from './components/Pages/WinterSeatingUmbrellaPage'
 import Footer from './components/Footer'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+import Navbar from './components/Navbar.jsx'
 
 const router = createBrowserRouter([
   {
-    path: '/Fahad',
+    path: '/Fahad/',
     element: <App/>,
     children: [
       {
         path: "",
         element: <> <div className='wrapper'><Home /><Gallary /><Footer /></div> </>
       },
-      {
-        path: "umbrella",
-        element: <> <UmbrellaPage/> <Footer /> </>
-      },
-      {
-        path: "schoolUmbrella",
-        element: <> <SchoolUmbrellaPage/> <Footer /> </>
-      },
-      {
-        path: "poolUmbrella",
-        element: <> <PoolUmbrellaPage/> <Footer /> </>
-      },
-      {
-        path: "plasticScreen",
-        element: <> <PlasticAndWoodScreensPage/> <Footer /> </>
-      },
-      {
-        path: "tensileStructureCanopy",
-        element: <> <TensileStructureCanopyPage/> <Footer /> </>
-      },
-      {
-        path: "seatingUmbrellaOrPergolas",
-        element: <> <SeatingUmbrellaPage/> <Footer /> </>
-      },
-      {
-        path: "parkingShades",
-        element: <> <ParkingShadesPage/> <Footer /> </>
-      },
-      {
-        path: "clothScreen",
-        element: <> <ClothScreenPage/> <Footer /> </>
-      },
-      {
-        path: "ironFence",
-        element: <> <IronFencePage/> <Footer /> </>
-      },
-      {
-        path: "net",
-        element: <> <NetPage/> <Footer /> </>
-      },
-      {
-        path: "outdoorGardenUmbrella",
-        element: <> <OutdoorGardenUmbrellaPage/> <Footer /> </>
-      },
-      {
-        path: "poetryHouses",
-        element: <> <PoetryHousesPage/> <Footer /> </>
-      },
-      {
-        path: "remoteControlAwnings",
-        element: <> <RemoteControlAwningsPage/> <Footer /> </>
-      },
-      {
-        path: "winterSeatingUmbrellas",
-        element: <> <WinterSeatingUmbrellaPage/> <Footer /> </>
-      },
-      
-      
     ]
-  }
+  },
+  {
+    path: "/Fahad/umbrella",
+    element: <><Navbar/> <UmbrellaPage/> <Footer /> </>
+  },
+  {
+    path: "/Fahad/schoolUmbrella",
+    element: <><Navbar/> <SchoolUmbrellaPage/> <Footer /> </>
+  },
+  {
+    path: "/Fahad/poolUmbrella",
+    element: <><Navbar/> <PoolUmbrellaPage/> <Footer /> </>
+  },
+  {
+    path: "/Fahad/plasticScreen",
+    element: <><Navbar/> <PlasticAndWoodScreensPage/> <Footer /> </>
+  },
+  {
+    path: "/Fahad/tensileStructureCanopy",
+    element: <><Navbar/> <TensileStructureCanopyPage/> <Footer /> </>
+  },
+  {
+    path: "/Fahad/seatingUmbrellaOrPergolas",
+    element: <><Navbar/> <SeatingUmbrellaPage/> <Footer /> </>
+  },
+  {
+    path: "/Fahad/parkingShades",
+    element: <><Navbar/> <ParkingShadesPage/> <Footer /> </>
+  },
+  {
+    path: "/Fahad/clothScreen",
+    element: <><Navbar/> <ClothScreenPage/> <Footer /> </>
+  },
+  {
+    path: "/Fahad/ironFence",
+    element: <><Navbar/> <IronFencePage/> <Footer /> </>
+  },
+  {
+    path: "/Fahad/net",
+    element: <><Navbar/> <NetPage/> <Footer /> </>
+  },
+  {
+    path: "/Fahad/outdoorGardenUmbrella",
+    element: <><Navbar/> <OutdoorGardenUmbrellaPage/> <Footer /> </>
+  },
+  {
+    path: "/Fahad/poetryHouses",
+    element: <><Navbar/> <PoetryHousesPage/> <Footer /> </>
+  },
+  {
+    path: "/Fahad/remoteControlAwnings",
+    element: <><Navbar/> <RemoteControlAwningsPage/> <Footer /> </>
+  },
+  {
+    path: "/Fahad/winterSeatingUmbrellas",
+    element: <><Navbar/> <WinterSeatingUmbrellaPage/> <Footer /> </>
+  },
 ])
 
 createRoot(document.getElementById('root')).render(

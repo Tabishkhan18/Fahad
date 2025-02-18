@@ -2,7 +2,12 @@
 import '../App.css'
 import bgImage from '/bg.jpg';
 import mobilebgImage from '/mobilebg.jpg';
-import cardImage from '/card.jpg';
+import cardImage1 from '/card1.jpg';
+import cardImage2 from '/card2.jpg';
+import cardImage3 from '/card3.jpg';
+import cardImage4 from '/card4.jpg';
+import cardImage5 from '/card5.jpg';
+import cardImage6 from '/card6.jpg';
 import { FaQuestionCircle } from "react-icons/fa";
 import { FaHeartCircleCheck } from "react-icons/fa6";
 import { MdFiberNew } from "react-icons/md";
@@ -13,7 +18,7 @@ import SmallCard from './SmallCard';
 
 const Home = () => {
   return (
-    <div className='header z-50' id='home'>
+    <div className='header z-40' id='home'>
       <img className='bg lg:flex justify-center hidden' src={bgImage} alt="" />
       <img className='mobilebg lg:hidden flex' src={mobilebgImage} alt="" />
 
@@ -25,7 +30,7 @@ const Home = () => {
           <p className='md:text-lg pb-5 text-end text-wrap text-base'>العنوان الرائيسي الرياض نتواجد في جميع مدن المملكة العربية السعودية</p>
           <p className='md:text-lg pb-5 text-end text-wrap text-base'>
             جوال:
-            <span className='hover:underline cursor-pointer'> 0548395708 </span>
+            <span className='hover:underline cursor-pointer'>0510345545</span>
           </p>
           <a href="#" className='flex lg:justify-end justify-center  w-full'>
             <button className='bg-green-500 cursor-pointer border-2 rounded-2xl border-green-500 hover:border-white hover:bg-green-800 my-2 md:text-lg text-sm text-white lg:px-24 px-16 py-2 transition-all duration-200 ease-in-out'>
@@ -34,7 +39,7 @@ const Home = () => {
         </div>
 
         {/* About */}
-        <div className='z-10 w-full bg-white text-green-950' id='about'>
+        <div className='z-10 w-full pattern text-green-950' id='about'>
           <div className="heading text-center md:px-60 px-2 flex flex-col gap-10 py-20">
             <h1 className='md:text-5xl text-2xl text-green-500 font-semibold uppercase'>
               النفيعي للمظلات وسواتر
@@ -65,49 +70,49 @@ const Home = () => {
               اتصل بنا
             </p>
             <p className="text-green-950 text-end cursor-pointer inline hover:text-green-500 hover:underline">
-              0548395708
+            0510345545
             </p>
           </div>
 
           <div className="smallCards flex lg:flex-row flex-col flex-wrap justify-center items-center my-40 lg:gap-20 gap-10">
 
             <SmallCard
-              cardImage={cardImage}
+              cardImage={cardImage1}
               // Why Choose Us
               title="لماذا تختارنا"
               description="مؤسسة تنمية المصادر للمقاولات العامة للترميم والتشطيب حسب الطلب من خلال عمال ,ومهندسين مدنين ,ومهندسين إدارة,صيانة , ومجالات اخري , وتعتمد علي التنظيم والتنفيذ..."
               Icon={FaQuestionCircle}
             />
             <SmallCard
-              cardImage={cardImage}
+              cardImage={cardImage2}
               // Best Quality
               title="الأفضل جودة"
               description="نعتمد علي نتائج دراسة السوق ,ومتطلباتة ,والطاقة الاستيعابية للمشاريع ..."
               Icon={FaHeartCircleCheck}
             />
             <SmallCard
-              cardImage={cardImage}
+              cardImage={cardImage3}
               // The Walk
               title="الــــنزهة"
               description="نقوم بدراسة الجداول التسويقية الخاصة بمشروعك وتحديد السعر المتوقع لمتطلبات المسروع ..."
               Icon={MdFiberNew}
             />
             <SmallCard
-              cardImage={cardImage}
+              cardImage={cardImage4}
               // Strategy and Planning
               title="الإستراتيجية و التخطيط"
               description="نحدد انتاج المشروع على اعتبار التنبؤ بحجم الطلب والمبيعاتالخاصة بناتج هذا المشروع"
               Icon={SiBlueprint}
             />
             <SmallCard
-              cardImage={cardImage}
+              cardImage={cardImage5}
               // Safety and Security
               title="السلامة والأمان"
               description="نتاج الإجرات الوقائية الارشادات العملية التي يمارسها رجل الأمن والسلامة في المؤسسة"
               Icon={AiOutlineSafety}
             />
             <SmallCard
-              cardImage={cardImage}
+              cardImage={cardImage6}
               // Customer Care
               title="الاهتمام بالزبائن"
               description=".الاهتمام هو جوهر جميع العلاقات لدى مؤسستنا ما يؤدي إلى تعزيز مستوى رضا العملاء"

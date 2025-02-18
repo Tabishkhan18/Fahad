@@ -45,7 +45,7 @@ const OutdoorGardenUmbrellaPage = () => {
   ];
 
   return (
-    <div className='z-50 bg-green-100 text-green-950 py-40'>
+    <div className='z-40 bg-green-100 text-green-950 py-40'>
       <div className="heading text-center md:px-60 px-2 flex flex-col gap-10 py-20">
         <h1 className='md:text-7xl text-4xl font-semibold uppercase'>
           مظلات خارجية للحدائق
@@ -70,7 +70,7 @@ const OutdoorGardenUmbrellaPage = () => {
           3-على أن تكون متأكد من المكان نفسه بحيث تكون في زاوية أو مكان مفتوح أكثر لكي تبرز المظلة للحديقة جماليةتها وأيضا الحماية.
           </p>
           <p className='md:text-lg text-base'>
-          هذه بعض المعلومات كيف تختار المظلة المناسبة للحديقة ونحن نسعد بخدمتك بالتواصل معنا وسوف نزولك بجميع الأشياء التي تحتاجونها من أسعار ومعلومات حدث قم بالاتصال جوال ‎055 948 3834
+          هذه بعض المعلومات كيف تختار المظلة المناسبة للحديقة ونحن نسعد بخدمتك بالتواصل معنا وسوف نزولك بجميع الأشياء التي تحتاجونها من أسعار ومعلومات حدث قم بالاتصال جوال ‎0510345545
           </p>
         </div>
       </div>

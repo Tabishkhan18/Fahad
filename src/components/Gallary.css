@@ -6,12 +6,14 @@
     transition: 0.5s ease-out;
     overflow: visible;
     border-color: #00C951;
+    
 }
 
 .card-details {
     color: #032E15;
     height: 100%;
     gap: .5em;
+    
     /* display: grid;
     place-content: center; */
     /* font-family: 'Courier New', Courier, monospace; */
