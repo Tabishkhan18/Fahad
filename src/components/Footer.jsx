@@ -2,6 +2,7 @@
 import { FaHome } from "react-icons/fa";
 import { FaPhoneAlt } from "react-icons/fa";
 import { IoIosMail } from "react-icons/io";
+import { HiMiniCodeBracket } from "react-icons/hi2";
 import SocialMedia from "./SocialMedia";
 import { Link } from "react-router-dom";
 
@@ -158,11 +159,11 @@ const Footer = () => {
           </p>
         </div>
       </div>
-      <div className="text-center text-3xl mt-20">
+      <div className="text-center md:text-3xl text-xl mt-20">
         لا اله إلا الله محمد(ﷺ) رسول الله
       </div>
-      <div className="text-center text-sm my-10">
-        حقوق النشر © فهد حداد 2025. جميع الحقوق محفوظة
+      <div className="flex justify-center gap-1 md:text-sm text-xs my-10">
+        This website is designed, developed and maintained by<a href="https://tabishkhan18.github.io/TechTabish/" target="_blank" className="flex items-center gap-1 font-semibold text-blue-700 hover:border-b transition-all duration-200 ease-in-out"><HiMiniCodeBracket  size={18}/>TechTabish</a>
       </div>
     </footer>
   )

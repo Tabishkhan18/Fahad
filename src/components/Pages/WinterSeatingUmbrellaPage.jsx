@@ -31,7 +31,7 @@ const WinterSeatingUmbrellaPage = () => {
   ];
 
   return (
-    <div className='z-40 bg-green-100 text-green-950 py-40'>
+    <div className='z-40 bg-green-50 text-green-950 py-40'>
       <div className="heading text-center md:px-60 px-2 flex flex-col gap-10 py-20">
         <h1 className='md:text-7xl text-4xl font-semibold uppercase'>
           مظلات الجلوس الشتوية
