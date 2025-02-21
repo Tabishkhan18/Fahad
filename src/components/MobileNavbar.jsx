@@ -154,7 +154,7 @@ const MobileNavbar = () => {
 
     return (
         <>
-            <div ref={menuRef} tabIndex={-1} onBlur={closeMenu} onFocus={() => setIsOpen(true)}>
+            <div className='z-50' ref={menuRef} tabIndex={-1} onBlur={closeMenu} onFocus={() => setIsOpen(true)}>
 
                 <StyledWrapper>
                     <label className="burger" htmlFor="burger">
@@ -168,14 +168,14 @@ const MobileNavbar = () => {
                 <OffcanvasMenu isOpen={isOpen} className='w-1/2 h-lvh'>
                     <nav>
                         <ul className='flex flex-col items-center uppercase'>
-                            <li className='"text-md text-white hover:text-green-500 transition ease-in-out duration-200 px-4 py-2 rounded-full  cursor-pointer'>
+                            <li className='"text-md text-white hover:text-green-400 transition ease-in-out duration-200 px-4 py-2 rounded-full  cursor-pointer'>
                                 <Link to='/Fahad/' spy={true} smooth={true} offset={-100} duration={500} >
                                     الرائيسية
                                     {/* Home */}
                                 </Link>
                             </li>
                             {/* <Link to='/services' spy={true} smooth={true} offset={-100} duration={500} > */}
-                            <li className='text-md text-white hover:text-green-500 transition ease-in-out duration-200 px-4 py-2 cursor-pointer'>
+                            <li className='text-md text-white hover:text-green-400 transition ease-in-out duration-200 px-4 py-2 cursor-pointer'>
                                 <Dropdown menu={{ items }} trigger={['click']}>
                                     <Space>
                                         <div className='flex cursor-pointer gap-3'>
@@ -188,13 +188,13 @@ const MobileNavbar = () => {
                                 </Dropdown>
                             </li>
                             {/* </Link> */}
-                            <li className='"text-md text-white hover:text-green-500 transition ease-in-out duration-200 px-4 py-2 rounded-full cursor-pointer'>
+                            <li className='"text-md text-white hover:text-green-400 transition ease-in-out duration-200 px-4 py-2 rounded-full cursor-pointer'>
                                 <Link to='/Fahad/about' spy={true} smooth={true} offset={-100} duration={500} >
                                     معلومات عنا
                                     {/* About Us */}
                                 </Link>
                             </li>
-                            <li className='"text-md text-white hover:text-green-500 transition ease-in-out duration-200 px-4 py-2 rounded-full  cursor-pointer'>
+                            <li className='"text-md text-white hover:text-green-400 transition ease-in-out duration-200 px-4 py-2 rounded-full  cursor-pointer'>
                                 <Link to='/Fahad/contact' spy={true} smooth={true} offset={-100} duration={500} >
                                     تفاصيل الاتصال
                                     {/* Contact Details */}
@@ -275,7 +275,7 @@ const OffcanvasMenu = styled.div`
   position: fixed;
   top: 80px; /* Position the menu below the hamburger icon */
   right: ${({ isOpen }) => (isOpen ? '0' : '-100%')};
-  background: #032E15;
+  background: #0D542B;
   transition: right 0.5s ease-in-out;
   padding: 25px;
   color: white;

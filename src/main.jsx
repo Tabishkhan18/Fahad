@@ -22,6 +22,7 @@ import WinterSeatingUmbrellaPage from './components/Pages/WinterSeatingUmbrellaP
 import Footer from './components/Footer'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import Navbar from './components/Navbar.jsx'
+import WhyUs from './components/WhyUs.jsx'
 
 const router = createBrowserRouter([
   {
@@ -30,65 +31,65 @@ const router = createBrowserRouter([
     children: [
       {
         path: "",
-        element: <> <div className='wrapper'><Home /><Gallary /><Footer /></div> </>
+        element: <> <div className='wrapper'><Home /><Gallary /> <div className="z-40 block md:hidden"> <WhyUs/></div>  <Footer /></div> </>
       },
     ]
   },
   {
     path: "/Fahad/umbrella",
-    element: <><Navbar/> <UmbrellaPage/> <Footer /> </>
+    element: <><Navbar/> <UmbrellaPage/>  <Footer /> </>
   },
   {
     path: "/Fahad/schoolUmbrella",
-    element: <><Navbar/> <SchoolUmbrellaPage/> <Footer /> </>
+    element: <><Navbar/> <SchoolUmbrellaPage/>  <Footer /> </>
   },
   {
     path: "/Fahad/poolUmbrella",
-    element: <><Navbar/> <PoolUmbrellaPage/> <Footer /> </>
+    element: <><Navbar/> <PoolUmbrellaPage/>  <Footer /> </>
   },
   {
     path: "/Fahad/plasticScreen",
-    element: <><Navbar/> <PlasticAndWoodScreensPage/> <Footer /> </>
+    element: <><Navbar/> <PlasticAndWoodScreensPage/>  <Footer /> </>
   },
   {
     path: "/Fahad/tensileStructureCanopy",
-    element: <><Navbar/> <TensileStructureCanopyPage/> <Footer /> </>
+    element: <><Navbar/> <TensileStructureCanopyPage/>  <Footer /> </>
   },
   {
     path: "/Fahad/seatingUmbrellaOrPergolas",
-    element: <><Navbar/> <SeatingUmbrellaPage/> <Footer /> </>
+    element: <><Navbar/> <SeatingUmbrellaPage/>  <Footer /> </>
   },
   {
     path: "/Fahad/parkingShades",
-    element: <><Navbar/> <ParkingShadesPage/> <Footer /> </>
+    element: <><Navbar/> <ParkingShadesPage/>  <Footer /> </>
   },
   {
     path: "/Fahad/clothScreen",
-    element: <><Navbar/> <ClothScreenPage/> <Footer /> </>
+    element: <><Navbar/> <ClothScreenPage/>  <Footer /> </>
   },
   {
     path: "/Fahad/ironFence",
-    element: <><Navbar/> <IronFencePage/> <Footer /> </>
+    element: <><Navbar/> <IronFencePage/>  <Footer /> </>
   },
   {
     path: "/Fahad/net",
-    element: <><Navbar/> <NetPage/> <Footer /> </>
+    element: <><Navbar/> <NetPage/>  <Footer /> </>
   },
   {
     path: "/Fahad/outdoorGardenUmbrella",
-    element: <><Navbar/> <OutdoorGardenUmbrellaPage/> <Footer /> </>
+    element: <><Navbar/> <OutdoorGardenUmbrellaPage/>  <Footer /> </>
   },
   {
     path: "/Fahad/poetryHouses",
-    element: <><Navbar/> <PoetryHousesPage/> <Footer /> </>
+    element: <><Navbar/> <PoetryHousesPage/>  <Footer /> </>
   },
   {
     path: "/Fahad/remoteControlAwnings",
-    element: <><Navbar/> <RemoteControlAwningsPage/> <Footer /> </>
+    element: <><Navbar/> <RemoteControlAwningsPage/>  <Footer /> </>
   },
   {
     path: "/Fahad/winterSeatingUmbrellas",
-    element: <><Navbar/> <WinterSeatingUmbrellaPage/> <Footer /> </>
+    element: <><Navbar/> <WinterSeatingUmbrellaPage/>  <Footer /> </>
   },
 ])
 

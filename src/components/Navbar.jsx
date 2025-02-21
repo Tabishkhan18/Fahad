@@ -138,21 +138,21 @@ const items = [
 const Navbar = () => (
 
     <div>
-        <nav className="navbar z-10 fixed top-0 right-0 left-0 flex justify-between items-center md:px-20 px-10 bg-green-950 h-20">
+        <nav className="navbar z-50 fixed top-0 right-0 left-0 flex drop-shadow-2xl justify-between items-center md:px-20 px-10 bg-green-900 h-20">
             <div className="menu hidden lg:flex">
                 <ul className='flex gap-5 uppercase'>
-                    <li className='text-md text-white hover:text-green-500 transition ease-in-out duration-200 px-4 py-2 cursor-pointer'>
+                    <li className='text-md text-white hover:text-green-400 transition ease-in-out duration-200 px-4 py-2 cursor-pointer'>
                         <Link to='/Fahad/contact' spy={true} smooth={true} offset={-100} duration={500}>
                             تفاصيل الاتصال
                             {/* Contact Details */}
                         </Link>
                     </li>
-                    <li className='text-md text-white hover:text-green-500 transition ease-in-out duration-200 px-4 py-2 cursor-pointer'>
+                    <li className='text-md text-white hover:text-green-400 transition ease-in-out duration-200 px-4 py-2 cursor-pointer'>
                         <Link to='/Fahad/about' spy={true} smooth={true} offset={-100} duration={500}>
                         معلومات عنا
                         {/* About Us */}
                     </Link></li>
-                    <li className='text-md text-white hover:text-green-500 transition ease-in-out duration-200 px-4 py-2 cursor-pointer'>
+                    <li className='text-md text-white hover:text-green-400 transition ease-in-out duration-200 px-4 py-2 cursor-pointer'>
                         {/* <Link to='/services' spy={true} smooth={true} offset={-100} duration={500}> */}
                         <Dropdown menu={{ items, }} trigger={['click']}>
                             <Space>
@@ -165,7 +165,7 @@ const Navbar = () => (
                         </Dropdown>
                         {/* </Link> */}
                     </li>
-                    <li className='text-md text-white hover:text-green-500 transition ease-in-out duration-200 px-4 py-2 cursor-pointer'>
+                    <li className='text-md text-white hover:text-green-400 transition ease-in-out duration-200 px-4 py-2 cursor-pointer'>
                         <Link to='/Fahad/' spy={true} smooth={true} offset={-100} duration={500} >
                         الرائيسية
                         {/* Home */}

@@ -57,9 +57,9 @@ const data = {
 
 const Gallary = () => {
   return (
-    <div className="bg-green-50 py-40 md:px-40 px-0 max-h-fit flex md:flex-row flex-col flex-wrap md:justify-end justify-center items-center gap-10 z-40">
+    <div className="skypattern py-40 md:px-40 px-0 max-h-fit flex md:flex-row flex-col flex-wrap md:justify-end justify-center items-center gap-10 z-40">
 
-      <h1 className='md:text-5xl text-2xl w-full text-center py-20 font-semibold text-green-500 border-b border-green-950'>
+      <h1 className='md:text-5xl text-2xl w-full text-center py-20 font-semibold text-neutral-300 border-b border-neutraltext-neutral-300'>
         المظلات والمظلات والأبواب   
       </h1>
 
